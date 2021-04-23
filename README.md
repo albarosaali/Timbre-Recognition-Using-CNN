@@ -1,5 +1,5 @@
 # Timbre Recognition Using Convolutional Neural Networks
-This project aims to distinguish instruments in a mix by their timbre (and recognise their pitch) by using Convolutional Neural Networks (CNN). Here code required to generate and label Musical Instrument Digital Interface (MIDI) data, and to train and test a CNN is provided (along with the data used for testing).
+This project aims to distinguish instruments in a mix by their timbre (and recognise their pitch) by using Convolutional Neural Networks (CNN). The instruments focused on in this project were the electric guitar and trumpet. Here code required to generate and label Musical Instrument Digital Interface (MIDI) data, and to train and test CNN is provided (along with the data used for testing); with the hope that it will be useful to further studies into aspects of stream-level automatic music transcription.
 ## Pre-Requisite Modules
 - TensorFlow v2
 - pyfftw         
