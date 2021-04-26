@@ -14,7 +14,7 @@ This project aims to distinguish instruments in a mix by their timbre (and recog
 - ffmpeg
 
 # Generating Training Data
-For training, 'instrument ascensions' were created: these are defined as the quarter note (crochet) ascension of a instrument from its lowest MIDI pitch, to its highest MIDI pitch. In the case of mixing instruments, an instrument ascension of one instrument was created for every note of the other instrument, to cover all possible pitch combinations.
+For training, 'instrument ascensions' were created: these are defined as the quarter note (crochet) ascension of a instrument from its lowest MIDI pitch, to its highest MIDI pitch. In the case of mixing instruments, an instrument ascension of one instrument was created for every note of the other instrument, to cover all possible pitch combinations. The "newCreation.ipynb" notebook can be used to generate single and dual label datasets for training with other instruments.
 
 # Network Testing
 The predictions from the network are tested via a piano roll sampled at 100Hz, giving a timing resolution of 10ms. The accuracy of the predicted piano-roll was measured by four activation metrics: "correct" (in time and pitch), "wrong" (correct in time but not in pitch), "false" (a note was found when there should have been none) and "missed" (there was no note found when there should have been one).
